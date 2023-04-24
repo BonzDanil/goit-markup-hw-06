@@ -127,6 +127,8 @@ body {
 
     padding: 24px 0;
 
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .menu :not(:last-child) {
@@ -142,8 +144,7 @@ body {
     letter-spacing: 0.02em;
     color: #404BBF;
 
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .menu {
@@ -180,6 +181,9 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .adress-link:hover,
@@ -190,8 +194,7 @@ body {
     letter-spacing: 0.02em;
     color: #404BBF;
 
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .header-list {
@@ -231,15 +234,16 @@ body {
     border: none;
     border-radius: 4px;
     margin-left: 490px;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .main-button:hover,
 .main-button:focus {
     background-color: #404BBF;
 
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    /* transition-property: visibility; */
+
 }
 
 .tags-h {
@@ -387,6 +391,9 @@ body {
     align-items: center;
     justify-content: center;
     color: #F4F4FD;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .socials-icon {
@@ -396,8 +403,7 @@ body {
 .social-link:hover,
 .social-link:focus {
     background-color: #404BBF;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 /* CUSTOMERS */
@@ -427,6 +433,9 @@ body {
     align-items: center;
     justify-content: center;
     color: #8e8f99;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .link-customers:hover,
@@ -434,8 +443,7 @@ body {
     border-color: #404bbf;
     color: #404bbf;
 
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .customers-icon {
@@ -507,6 +515,9 @@ body {
     align-items: center;
     justify-content: center;
     color: #F4F4FD;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .socials-icon-footer {
@@ -516,9 +527,6 @@ body {
 .social-link-footer:hover,
 .social-link-footer:focus {
     background-color: #31D0AA;
-
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-icon-footer {
@@ -573,6 +581,9 @@ body {
     background-color: rgba(255, 255, 255, 0);
     padding: 10px;
     color: #FFFFFF;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .footer-form-input:focus,
@@ -582,7 +593,6 @@ body {
 
 
 .footer-form-btn {
-    position: relative;
     font-size: 16px;
     line-height: 1.5;
     color: #FFFFFF;
@@ -590,25 +600,26 @@ body {
     border-radius: 4px;
     width: 165px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 1px solid #4D5AE5;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .footer-form-btn:hover,
 .footer-form-btn:focus {
     background: #404BBF;
-
 }
 
 .send-icon {
-fill: white;
-   
+    fill: white;
+    margin-left: 16px;
+
     display: inline-block;
     vertical-align: middle;
- 
 }
 
 /* BUTTONS */
-
-
 .buttons {
     font-weight: 500;
     font-size: 16px;
@@ -621,6 +632,9 @@ fill: white;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
     padding: 12px 24px;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .buttons:hover,
@@ -629,11 +643,6 @@ fill: white;
     background-color: #404BBF;
     border: 1px solid transparent;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-
 }
 
 .four-section {
@@ -649,7 +658,6 @@ fill: white;
     padding: 96px 0 120px;
 }
 
-.buttons-list {}
 
 .porfolio-button {
     display: flex;
@@ -686,14 +694,14 @@ fill: white;
 
 .portfolio-link {
     display: block;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .portfolio-link:hover,
 .portfolio-link:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .wrapper {
@@ -709,6 +717,7 @@ fill: white;
     top: 0;
     left: 0;
     padding: 32px 40px;
+
     transform: translateY(100%);
     transition-property: transform;
     transition-duration: 250ms;
@@ -717,8 +726,8 @@ fill: white;
 
 
 
-.link-over :hover .overlay,
-.link-over :focus .overlay {
+.link-over:hover .overlay,
+.link-over:focus .overlay {
     transform: translateY(0);
 
     transition-duration: 250ms;
@@ -756,10 +765,6 @@ fill: white;
     transition-timing-function: linear;
 }
 
-/* .backdrop:hover,
-.backdrop:focus {
-    background-color: #FFFFFF;
-} */
 
 .modal {
     position: absolute;
@@ -794,25 +799,24 @@ fill: white;
     border-radius: 50%;
     width: 24px;
     height: 24px;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .close-btn:hover,
 .close-btn:focus {
     background-color: #404BBF;
-
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Обратите внимание, что я удалил пробел между .close-btn и :hover / :focus. Это очень важно, так как пробел указывает на то, что вы выбираете потомка элемента, а не сам элемент. Когда вы используете пробел между селекторами, вы выбираете все элементы, которые находятся внутри элемента .close-btn, и которые имеют состояние ховера или фокуса. В вашем случае, это не то, что вам нужно. */
+
 
 
 .close-btn:hover svg {
     fill: #FFFFFF;
-    /* изменение цвета самого SVG */
 
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .form-title {
@@ -982,7 +986,10 @@ fill: white;
     color: #FFFFFF;
     background: #4D5AE5;
     border-radius: 4px;
+    border: 1px solid;
 
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .form-btn:hover,
@@ -990,6 +997,6 @@ fill: white;
     background: #404BBF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    transition: border 250ms var(--transition-timing),
-        background-color 250ms var(--transition-timing);
+    /* transition: border 250ms var(--transition-timing),
+        background-color 250ms var(--transition-timing); */
 }
